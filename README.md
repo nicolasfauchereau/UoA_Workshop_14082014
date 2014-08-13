@@ -1,5 +1,7 @@
 #Using open-source software for Engineering and Science research
 
+## Python and the Scientific Python ecosystem
+
 **14 August 2014**
 
 
