@@ -73,7 +73,8 @@ You also need to install [pip](https://github.com/pypa/pip) to install packages 
 
 Once the [Anaconda scientific python distribution](https://store.continuum.io/cshop/anaconda/) has been installed:
 
-1. navigate (in the terminal) to the directory where you have unpacked or clone my repository (`*.ipynb` files should be present)
+1. navigate (in the terminal) to the directory where you have unpacked or clone my repository (`*.ipynb` files should be present)  
+
 2. run:
 ```
 ipython notebook
