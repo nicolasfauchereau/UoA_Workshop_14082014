@@ -37,7 +37,7 @@ Follow the links to the for HTML-rendered (**static**) versions of the notebooks
 
 ---
 
-### Installation instructions
+## Installation instructions
 
 I recommend using the [Anaconda scientific python distribution](https://store.continuum.io/cshop/anaconda/), which is a completely free enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing. It includes the python interpreter itself, the python standard library as well as a set of packages exposing data structures and methods for data manipulation and scientific computing and visualization. In particular it provides Numpy, Scipy, Pandas, Matplotlib (...). The full list of packages is available at:
 
