@@ -80,4 +80,4 @@ ipython notebook
 ```
 3. Open `test.ipynb` and in the menu bar select `Cell / Run all` to see if everything installed fine
 
-To visualize the notebooks from my github repository please head to the [README]() which contains links to static, HTML-rendered versions of the notebooks, that you can follow online
+To visualize the notebooks from my github repository please head to the [README](README.md) which contains links to static, HTML-rendered versions of the notebooks, that you can follow online
