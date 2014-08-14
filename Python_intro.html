@@ -1678,7 +1678,7 @@ div#notebook {
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[3]:
+In&nbsp;[1]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1783,31 +1783,7 @@ h1.title {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Python-and-the-Scientific-Python-ecosystem">Python and the Scientific Python ecosystem<a class="anchor-link" href="#Python-and-the-Scientific-Python-ecosystem">&#182;</a></h1>
-</div>
-</div>
-</div>
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<hr size=5>
-
-<p><strong>Using open-source software for Engineering and Science research</strong> </p>
-<p><strong>14 August 2014</strong> </p>
-<blockquote>
-<p>Room 423-340<br>University of Auckland<br>Conference building<br>between 20 and 24 Symonds street (<em>between the Engineering building and the security building</em>)<br>Auckland<br>New Zealand  </p>
-</blockquote>
-<p><a href="https://wiki.auckland.ac.nz/x/FQEuB">https://wiki.auckland.ac.nz/x/FQEuB</a></p>
-<p>Email: <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#x6f;&#58;&#x4e;&#x69;&#x63;&#x6f;&#108;&#97;&#115;&#x2e;&#70;&#97;&#x75;&#x63;&#x68;&#101;&#114;&#x65;&#x61;&#x75;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#x4e;&#x69;&#x63;&#x6f;&#108;&#97;&#115;&#x2e;&#70;&#97;&#x75;&#x63;&#x68;&#101;&#114;&#x65;&#x61;&#x75;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;</a></p>
-<p>All the material (notebooks) is indexed at:</p>
-<p><a href="http://github.com/nicolasfauchereau/UoA_Workshop_14082014">http://github.com/nicolasfauchereau/UoA_Workshop_14082014</a></p>
-<p>If you have git installed, the easier is to clone my repository (from the command line): </p>
-<pre><code>git clone https://github.com/nicolasfauchereau/UoA_Workshop_14082014
-</code></pre><p>If you are not a git user, simply download the zipped archive from <a href="https://github.com/nicolasfauchereau/UoA_Workshop_14082014/archive/master.zip">here</a>  </p>
-<hr size=5>
+<h1 id="a-brief-introduction-to-the-language-python">A brief introduction to the language Python</h1>
 </div>
 </div>
 </div>
@@ -1816,30 +1792,40 @@ h1.title {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Structure-of-the-repository">Structure of the repository<a class="anchor-link" href="#Structure-of-the-repository">&#182;</a></h2>
-</div>
-</div>
-</div>
-
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Following the links open the executable IPython notebooks</p>
-<ol>
-<li><a href="./Introduction.ipynb">Introduction (this notebook)</a></li>
-<li><a href="./Python_intro.ipynb">Python: a brief intro</a></li>
-<li><a href="./IPython_notebook.ipynb">The IPython notebook</a></li>
-<li><strong>The Scientific Python ecosystem: building blocks</strong>:<ul>
-<li><a href="./Numpy.ipynb">Numpy</a></li>
-<li><a href="./Scipy.ipynb">Scipy</a></li>
-<li><a href="./Matplotlib.ipynb">Matplotlib</a></li>
-<li><a href="./Pandas.ipynb">Pandas</a>  </li>
+<p><a href="http://www.python.org/">Python</a> is a modern, general-purpose, object-oriented, high-level programming language. It is a <strong>scripting</strong> language in the sense that python code runs (i.e. each <em>expression</em> is <em>interpreted</em> in turn) into the python <strong>interpreter</strong>, there is no linking, no compilation: </p>
+<ul>
+<li>Similar to <code>ruby, perl, php, matlab, R,</code> ...</li>
+<li>Unlike <code>C, C++, Java, Fortran</code></li>
 </ul>
-</li>
-</ol>
-<hr size=5>
+<p>It is widely used in science and engineering, and has gain considerable traction in the domain of scientific computing over the past few years, some examples: </p>
+<ul>
+<li>The Bureau of Meteorology uses it to drive its hydrology prediction</li>
+<li>Python used at NASA for the Mars rover Curiosity mission </li>
+<li>Astronomy: </li>
+</ul>
+<blockquote>
+<ul>
+<li>The <a href="http://www.stsci.edu/institute/software_hardware/pyraf/stsci_python">Space Telescope Science Institute</a> manages the operation of the Hubble Space Telescope with Python</li>
+<li><a href="http://yt-project.org/">yt</a>: cosmological simulations:</li>
+</ul>
+</blockquote>
+<p><div align="center">
+<img src="http://yt-project.org/img/gallery/alma_natcov.jpg" alt="">
+</div>  </p>
+<hr size=0>
+
+<blockquote>
+<ul>
+<li>and many more ...</li>
+</ul>
+</blockquote>
+<p>Some positive attributes of Python that are often cited: </p>
+<ul>
+<li><strong>Simplicity</strong>: It is easy to read and easy to learn, almost reads like pseudo-code in many instances</li>
+<li><strong>Expressive</strong>: Fewer lines of code, fewer bugs and easy to maintain.</li>
+<li><strong>Powerful</strong>: Python is not a language you grow out of. It can also be used for large projects, Big Data, High Performance Computing applications, etc.</li>
+<li><strong>Batteries included</strong>: The <a href="http://docs.python.org/2/library/"><strong>standard library</strong></a> is huge and includes some really cool libraries </li>
+</ul>
 </div>
 </div>
 </div>
@@ -1848,31 +1834,3028 @@ h1.title {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Installing-the-Python-scientific-ecosystem-on-a-single-machine">Installing the Python scientific ecosystem on a single machine<a class="anchor-link" href="#Installing-the-Python-scientific-ecosystem-on-a-single-machine">&#182;</a></h2>
+<p><strong>the <em>philosophy</em> of Python </strong></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[1]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">this</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren&apos;t special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you&apos;re Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it&apos;s a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let&apos;s do more of those!
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The <a href="https://store.continuum.io/cshop/anaconda/">Anaconda scientific python distribution</a> is a completely free enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing. It includes the python interpreter itself, the python standard library as well as a set of packages exposing data structures and methods for data manipulation and scientific computing and visualization. In particular it provides Numpy, Scipy, Pandas, Matplotlib (...). The full list of packages is available at:</p>
-<p><a href="http://docs.continuum.io/anaconda/pkgs.html">http://docs.continuum.io/anaconda/pkgs.html</a></p>
-<p>The Anaconda python distribution must be downloaded from:</p>
-<p><a href="http://continuum.io/downloads">http://continuum.io/downloads</a></p>
-<p>Once copied over, make sure the anaconda installer is executable by going in the right directory (with cd) and entering (example for <code>version 2.0.1</code> of Anaconda on a 64bit Linux machine):</p>
-<pre><code>$ chmod +x Anaconda-2.0.1-Linux-x86_64.sh
-</code></pre><p>then to launch the installer:</p>
-<pre><code>$ ./Anaconda.2.0.1-Linux-x86_64.sh
-</code></pre><p>The installer will ask you a few questions, the most important is related to the installation directory, I recommend installing in the <code>$HOME</code> directory (user installation)</p>
-<p>Once Anaconda is installed, you need to update conda (the python ‘package manager’ that comes with anaconda and allows the painless installation and update of third party modules) by entering</p>
-<pre><code>$ ${HOME}/bin/conda update conda
-</code></pre><p>Then a good thing is to update the anaconda packages already installed</p>
-<pre><code>$ ${HOME}/bin/conda update anaconda
-</code></pre><p>You also need to install <a href="https://github.com/pypa/pip">pip</a> to install packages from the <a href="http://pypi.python.org/pypi">Python Package Index</a>.</p>
-<pre><code>$ ${HOME}/bin/conda install pip
+<h2 id="some-elements-of-syntax">Some elements of syntax</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="the-basics">The basics</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>python scripts suffix <code>.py</code> </p>
+<p>Shebang line: </p>
+<pre><code>#!/usr/bin/env/python 
+</code></pre><p>or path to your python binary</p>
+<pre><code>#!/Users/nicolas/anaconda/bin/python
+</code></pre><p>commented lines are marked by <code>#</code></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In the following IPython notebook cell I&#39;m writing the content of the cell to a file </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[3]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="o">%%</span><span class="k">writefile</span> <span class="n">print_upper</span><span class="o">.</span><span class="n">py</span> 
+<span class="c">#!/usr/bin/env python </span>
+<span class="c"># This is a python script </span>
+
+<span class="kn">import</span> <span class="nn">sys</span> <span class="c"># I import the sys module, part of the Python standard library</span>
+
+<span class="n">X</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="c"># reading the command line arguments, X is list</span>
+
+<span class="n">X</span> <span class="o">=</span> <span class="s">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span><span class="n">X</span><span class="p">))</span> <span class="c"># transform everything into a string</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span> <span class="c"># printing the content, uppercase if applicable</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Overwriting print_upper.py
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[4]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="o">!</span>ls *.py 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+load_style.py  print_upper.py talktools.py
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[5]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="o">!</span>chmod +x print_upper.py # we make the file executable
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[6]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="o">!</span>./print_upper.py something another thing 1 2 3
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+SOMETHING ANOTHER THING 1 2 3
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[7]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="o">!</span>python print_upper.py something another thing 1 2 3
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+SOMETHING ANOTHER THING 1 2 3
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[8]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="o">%</span><span class="k">run</span> <span class="n">print_upper</span><span class="o">.</span><span class="n">py</span> <span class="n">something</span> <span class="n">another</span> <span class="n">thing</span> <span class="mi">1</span> <span class="mi">2</span> <span class="mi">3</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+SOMETHING ANOTHER THING 1 2 3
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="variable-names">Variable names</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>a good idea is to use <strong>meaningful</strong> variable names in your scripts / notebooks </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Can contain only letters, numbers and _ and must NOT begin by a number, also avoid Python reserved names</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[9]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="k">for</span> <span class="o">=</span> <span class="mi">1</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_text output_pyerr">
+<pre>
+<span class="ansicyan">  File </span><span class="ansigreen">&quot;&lt;ipython-input-9-c8a8281ee30d&gt;&quot;</span><span class="ansicyan">, line </span><span class="ansigreen">1</span>
+<span class="ansired">    for = 1</span>
+        ^
+<span class="ansired">SyntaxError</span><span class="ansired">:</span> invalid syntax
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="operators">Operators</h3>
+<p>Assignement operator is <code>=</code></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">*</span> <span class="mi">2</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">+=</span> <span class="mi">2</span> <span class="c"># same as a = a + 2</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">-=</span><span class="mi">2</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>** is used for exponentiation </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span><span class="o">**</span><span class="mi">2</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">pow</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>CAVEAT</strong>: The case of integer division </p>
+<p>In python 2.7 the ratio of two integers is always an integer, the results are truncated towards 0 if the result 
+is not an integer. </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[11]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="mf">9.0</span> <span class="o">/</span> <span class="mi">5</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[11]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+1.8
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>From Python 3 this behavior changes to what you would expect. To use the Python 3 behavior you need to include </p>
+<pre><code>from __future__ import division
+</code></pre><p>at the top of your script / notebook before doing any calculations </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[12]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">division</span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[13]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="mi">9</span> <span class="o">/</span> <span class="mi">5</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[13]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+1.8
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="types-and-data-structures">Types and Data structures</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="floats">Floats</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mf">2.0</span> <span class="c"># can use 2. if you are lazy </span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="complex-numbers">Complex numbers</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>can be created using the <code>J</code> notation or the <code>complex</code> function</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span><span class="n">J</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">));</span> <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="nb">complex</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">));</span> <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="integers-and-long-integers">Integers and <code>Long</code> integers</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="mf">1.2</span><span class="p">)</span> <span class="c">### will take the integer part </span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Normal integers can range from $-2^{31}$ to $2^{31}$, <code>Long</code> integers have NO range limitation. Note that Python converts <code>ints</code> to <code>Long</code> automatically if needed</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="il">1L</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">2</span><span class="o">**</span><span class="mi">64</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="booleans">Booleans</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Used to represent <code>True</code> and <code>False</code>. Usually they arise as the result of a logical operation</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="bp">True</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">==</span> <span class="mi">0</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">y</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="mi">0</span><span class="p">);</span> <span class="n">y</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[14]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="bp">True</span><span class="p">,</span> <span class="bp">True</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="bp">True</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[15]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">sum</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[15]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+3
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="strings">Strings</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can define a string as any valid characters surrounded by single quotes</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[16]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">sentence</span> <span class="o">=</span> <span class="s">&#39;The Guide is definitive. Reality is frequently inaccurate.&#39;</span><span class="p">;</span> <span class="k">print</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+The Guide is definitive. Reality is frequently inaccurate.
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Or double quotes </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[17]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">sentence</span> <span class="o">=</span> <span class="s">&quot;I&#39;d take the awe of understanding over the awe of ignorance any day.&quot;</span><span class="p">;</span> <span class="k">print</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+I&apos;d take the awe of understanding over the awe of ignorance any day.
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Or triple quotes </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[18]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">sentence</span> <span class="o">=</span> <span class="s">&quot;&quot;&quot;Time is an illusion.</span>
+
+<span class="s">Lunchtime doubly so.&quot;&quot;&quot;</span><span class="p">;</span> <span class="k">print</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Time is an illusion.
+
+Lunchtime doubly so.
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[19]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">len</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span> <span class="c">#!</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[19]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+42
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>And you can convert the types above (floats, complex, ints, Longs) to a string with the <code>str</code> function</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[20]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">str</span><span class="p">(</span><span class="nb">complex</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[20]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&apos;(2+3j)&apos;
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="a-string-is-a-python-iterable-">A string is a python <em>iterable</em></h4>
+<p>You can INDEX a string variable, indexing in Python starts at 0 (not 1): the subscript refers to an <strong>offset</strong> from the starting position of an iterable, so the first element has an offset of zero</p>
+<p>If you want to know more follow <a href="http://python-history.blogspot.co.nz/2013/10/why-python-uses-0-based-indexing.html">why python uses 0-based indexing</a></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[23]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">sentence</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[23]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&apos;Time&apos;
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[24]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">sentence</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[24]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&apos;.os ylbuod emithcnuL\n\n.noisulli na si emiT&apos;
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>But it is <strong>immutable</strong>: You cannot change string elements in place</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[25]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">sentence</span> <span class="o">=</span> <span class="s">&quot;blabla&quot;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A lot of handy methods are available to manipulate strings</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[26]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="n">sentence</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+BLABLA
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">sentence</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">sentence</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="c"># by default split on whitespaces, returns a list (see below)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="string-contenation-and-formatting">String contenation and formatting</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="s">&quot;The answer is &quot;</span> <span class="o">+</span> <span class="s">&quot;42&quot;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="s">&quot;;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="s">&quot;The answer is &quot;</span><span class="p">,</span><span class="s">&quot;42&quot;</span><span class="p">])</span> <span class="c"># [&quot;The answer is &quot;,&quot;42&quot;] is a list with two elements (separated by a ,)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="mi">42</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="s">&quot;The answer is </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span> <span class="n">a</span> <span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="s">&quot;The answer is </span><span class="si">%4.2f</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span> <span class="n">a</span> <span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="s">&quot;The answer is {0:&lt;6.4f}, {0:&lt;6.4f} and not {1:&lt;6.4f} &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="mf">42.0001</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="lists">Lists</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[27]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[28]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[28]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+[1, 2, 3, 4, 5, 6]
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[29]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">str_list</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;thing&#39;</span><span class="p">,</span> <span class="s">&#39;stuff&#39;</span><span class="p">,</span> <span class="s">&#39;truc&#39;</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[30]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">str_list</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[30]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+[&apos;thing&apos;, &apos;stuff&apos;, &apos;truc&apos;]
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>lists can contain anything</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[31]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">mixed_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mf">1.</span><span class="p">,</span> <span class="mi">2</span><span class="o">+</span><span class="mi">3</span><span class="n">J</span><span class="p">,</span> <span class="s">&#39;sentence&#39;</span><span class="p">,</span> <span class="s">&quot;&quot;&quot;</span>
+<span class="s">long sentence</span>
+<span class="s">&quot;&quot;&quot;</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[32]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">mixed_list</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[32]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+[1, 1.0, (2+3j), &apos;sentence&apos;, &apos;\nlong sentence\n&apos;]
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">mixed_list</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="accessing-elements-and-slicing-lists">Accessing elements and slicing lists</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>lists</code> are iterable, their items (elements) can be accessed in a similar way as we saw for strings </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c">## same as int_list.reverse() but it is NOT operating in place</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>lists can be nested (list of lists)</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>append</code> is one of the most useful list methods</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[33]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">7</span><span class="p">);</span> <span class="k">print</span><span class="p">(</span><span class="n">int_list</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+[1, 2, 3, 4, 5, 6, 7]
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>lists are mutable: you can change their elements in place </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="k">print</span><span class="p">(</span><span class="n">int_list</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span> <span class="c">### ! list object methods are applied &#39;in place&#39;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_list</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="tuples">Tuples</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Tuples are also iterables, and they can be indexed and sliced like lists</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[34]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_tup</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[35]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_tup</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[35]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+(2, 3)
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[36]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_tup</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[36]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+1
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This construction is also possible</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[37]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">tup</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[38]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">tup</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[38]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+(1, 2, 3)
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Tuples ARE NOT mutable, contrary to lists</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[39]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">int_tup</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_text output_pyerr">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">TypeError</span>                                 Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-39-e1b3b1603cc4&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">----&gt; 1</span><span class="ansired"> </span>int_tup<span class="ansiblue">[</span><span class="ansicyan">0</span><span class="ansiblue">]</span> <span class="ansiblue">=</span> <span class="ansicyan">1</span><span class="ansiblue"></span>
+
+<span class="ansired">TypeError</span>: &apos;tuple&apos; object does not support item assignment</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Useful trick: <code>zipping</code> lists</strong></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span> <span class="k">print</span> <span class="n">a</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">b</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">);</span> <span class="k">print</span> <span class="n">b</span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c"># returns a list of tuples</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="list-comprehension-">List comprehension !</h3>
+<p>List comprehensions are one of the most useful and compacts Python expressions, I&#39;m introducing that here but we&#39;ll see more about control flow structures later. </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">str_list</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="p">[</span><span class="s">&#39;my &#39;</span> <span class="o">+</span> <span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">str_list</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">str_list</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="p">[</span><span class="n">x</span><span class="o">+</span><span class="n">y</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)]</span> <span class="c"># using zip (above)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="p">[</span><span class="n">x</span> <span class="o">+</span> <span class="mi">6</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">)</span> <span class="k">else</span> <span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">a</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="dictionnaries">Dictionnaries</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>One of the more flexible built-in data structures is the dictionary. A dictionary maps a collection of values to a set of associated keys. These mappings are mutable, and unlike lists or tuples, are unordered. Hence, rather than using the sequence index to return elements of the collection, the corresponding key must be used. Dictionaries are specified by a comma-separated sequence of keys and values, which are separated in turn by colons. The dictionary is enclosed by curly braces. For example:</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[40]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s">&#39;a&#39;</span><span class="p">:</span><span class="mi">16</span><span class="p">,</span> <span class="s">&#39;b&#39;</span><span class="p">:(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span> <span class="s">&#39;foo&#39;</span><span class="p">:</span><span class="s">&#39;&#39;&#39;(noun) a term used as a universal substitute </span>
+<span class="s">           for something real, especially when discussing technological ideas and </span>
+<span class="s">           problems&#39;&#39;&#39;</span><span class="p">}</span>
+<span class="n">my_dict</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[40]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+{&apos;a&apos;: 16,
+ &apos;b&apos;: (4, 5),
+ &apos;foo&apos;: &apos;(noun) a term used as a universal substitute \n           for something real, especially when discussing technological ideas and \n           problems&apos;}
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[41]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">my_dict</span><span class="p">[</span><span class="s">&#39;b&#39;</span><span class="p">]</span>
+<span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[41]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+(4, 5)
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="s">&#39;a&#39;</span> <span class="ow">in</span> <span class="n">my_dict</span>	<span class="c"># Checks to see if ‘a’ is in my_dict</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">my_dict</span><span class="o">.</span><span class="n">has_key</span><span class="p">(</span><span class="s">&#39;bar&#39;</span><span class="p">)</span>	<span class="c"># Checks to see if a key exists</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">my_dict</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>		<span class="c"># Returns key/value pairs as list of tuples</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">my_dict</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>		<span class="c"># Returns list of keys</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">my_dict</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>	<span class="c"># Returns list of values</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">my_dict</span><span class="p">[</span><span class="s">&#39;c&#39;</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>If we would rather not get the error, we can use the <code>get</code> method, which returns <code>None</code> if the value is not present, or a value of your choice</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">my_dict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;c&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">my_dict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;c&#39;</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="logical-operators">Logical operators</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Logical operators will <strong>test</strong> for some condition and return a boolean (True, False)</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="comparison-operators">Comparison operators</h4>
+<ul>
+<li><code>&gt;</code> : Greater than</li>
+<li><code>&gt;=</code> : Greater than or equal to</li>
+<li><code>&lt;</code> : Less than</li>
+<li><code>&lt;=</code> : Less than or equal to</li>
+<li><code>==</code> : Equal to</li>
+<li><code>!=</code> : Not equal to</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>is / is not</strong></p>
+<p>Use <strong>==</strong> (<strong>!=</strong>) when comparing values and <strong>is</strong> (<strong>is not</strong>) when comparing <strong>identities</strong>.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mf">5.</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">y</span> <span class="o">=</span> <span class="mi">5</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">==</span> <span class="n">y</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="ow">is</span> <span class="n">y</span> <span class="c"># x is a float, y is a int, they point to different addresses in memory</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="some-examples-of-common-comparisons">Some examples of common comparisons</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">6</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">==</span> <span class="n">b</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">!=</span> <span class="n">b</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="p">(</span><span class="n">a</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">b</span> <span class="o">&lt;</span> <span class="mi">7</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="p">(</span><span class="n">a</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">b</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="p">(</span><span class="n">a</span> <span class="o">&gt;</span> <span class="mi">4</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">b</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>All</strong> and <strong>Any</strong> can be used for a <em>collection</em> of booleans</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[42]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[43]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">cond</span> <span class="o">=</span> <span class="p">[</span><span class="n">item</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">x</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[44]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">cond</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[44]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+[True, True, False, True, True]
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[45]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">all</span><span class="p">(</span><span class="n">cond</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[45]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+False
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[46]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">any</span><span class="p">(</span><span class="n">cond</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[46]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+True
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="control-flow-structures">Control flow structures</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="indentation-is-meaningfull">Indentation is meaningfull</h4>
+<p>In Python, there are no annoying curly braces (I&#39;m looking at you <code>R</code>), parenthesis, brackets etc as in other languages  to delimitate flow control blocks, instead, the INDENTATION plays this role, which  <strong>forces you</strong> to write clear(er) code ...</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[47]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span> 
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="k">print</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span> <span class="n">x</span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+0
+1
+4
+9
+16
+5
+6
+7
+8
+9
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Note</strong>: The standard is to use 4 spaces (<strong>NOT</strong> tabs) for the indentation, set your favorite editor accordingly, for example in vi / vim: </p>
+<pre><code>set tabstop=4
+set expandtab
+set shiftwidth=4
+set softtabstop=4
 </code></pre>
 </div>
 </div>
@@ -1882,466 +4865,543 @@ h1.title {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Running-or-visualizing-the-material">Running or visualizing the material<a class="anchor-link" href="#Running-or-visualizing-the-material">&#182;</a></h2>
+<p>When editing a code cell in IPython, the indentation is handled intelligently, try typing in a new blank cell: </p>
+<pre><code>for x in xrange(10): 
+    if x &lt; 5:
+        print x**2
+    else:
+        print x 
+</code></pre>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+        
+        
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Once the <a href="https://store.continuum.io/cshop/anaconda/">Anaconda scientific python distribution</a> has been installed: </p>
-<ol>
-<li>navigate (in the terminal) to the directory where you have unpacked or cloned my repository (<code>*.ipynb</code> files should be present)</li>
-<li>run: <pre><code>${HOME}/anaconda/bin/ipython notebook
-</code></pre></li>
-<li>Open <a href="./test.ipynb">test.ipynb</a> and in the menu bar select <code>Cell / Run all</code> to see if everything installed fine</li>
-</ol>
-<p>To visualize the notebooks from my github repository please head to the <a href="">README</a> which contains links to static, HTML-rendered versions of the notebooks, that you can follow online</p>
-<hr size=5>
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Pointers-and-resources">Pointers and resources<a class="anchor-link" href="#Pointers-and-resources">&#182;</a></h2>
+<h4 id="if-elif-else">if ... elif ... else</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span> <span class="c"># not met</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="k">elif</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">:</span> 
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="mi">1</span> <span class="c"># not met either </span>
+<span class="k">else</span><span class="p">:</span> 
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="mi">2</span>
+    
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Below a partial list of resources (in no particular order !) you might want to consider if making the move towards Python and the Python scientific ecosystem</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Object-Oriented-Programming-in-Python">Object Oriented Programming in Python<a class="anchor-link" href="#Object-Oriented-Programming-in-Python">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="mi">5</span> <span class="ow">and</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">):</span> 
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">+</span><span class="mi">1</span>
+<span class="k">elif</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="mi">5</span> <span class="ow">and</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">12</span><span class="p">):</span> 
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="mi">3</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">-</span><span class="mi">1</span>
+    
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="www.google.com">www.google.com</a></li>
-<li><a href="http://www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm">A good tutorial by Alan Gauld</a></li>
-<li>The <a href="http://docs.python.org/2/tutorial/classes.html">classes</a> entry from the official Python doc </li>
-<li>A short <a href="http://www1.gly.bris.ac.uk/~walker/PythonEarthSci/PfES_3.pdf">pdf</a> from Andrew Walker&#39;s <a href="http://www1.gly.bris.ac.uk/~walker/PythonEarthSci/">Python for Earth Scientists</a> course</li>
-</ul>
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Python-as-a-glue:-wrapping-of-C,-C++,-Fortran-or-the-Cython-module">Python as a glue: wrapping of C, C++, Fortran or the Cython module<a class="anchor-link" href="#Python-as-a-glue:-wrapping-of-C,-C++,-Fortran-or-the-Cython-module">&#182;</a></h3>
+<h4 id="the-for-loop">The For loop</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>￼The basic structure of FOR loops is ￼</p>
+<pre><code>for item in iterable: 
+    expression(s)
+</code></pre>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="c"># x = range(1,10) # range creates a list ... </span>
+<span class="c"># xrange is a convenience function, it creates an iterator rather than a list</span>
+<span class="c"># which has a smaller memory footprint</span>
+<span class="n">x</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span> 
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="n">count</span> <span class="o">+=</span> <span class="n">i</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="http://docs.scipy.org/doc/numpy/user/c-info.python-as-glue.html">using python as a <em>glue</em></a></li>
-<li><a href="http://www.swig.org/Doc1.3/Python.html">SWIG (Simplified Wrapper and Interface Generator)</a></li>
-<li><a href="http://cython.org">Cython</a></li>
-<li><a href="http://www.f2py.com/">f2py</a></li>
-<li><a href="http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-6A-Fortran-and-C.ipynb">A notebook on using C and Fortran with Python</a></li>
-</ul>
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Real-time-acquisition,-physical-programming">Real-time acquisition, physical programming<a class="anchor-link" href="#Real-time-acquisition,-physical-programming">&#182;</a></h3>
+<h4 id="try-except">try ... except</h4>
+<p>You can see it as a generalization of the <code>if ... else</code> construction, allowing more flexibility in handling failures in code</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">text</span> <span class="o">=</span> <span class="p">(</span><span class="s">&#39;a&#39;</span><span class="p">,</span><span class="s">&#39;1&#39;</span><span class="p">,</span><span class="s">&#39;54.1&#39;</span><span class="p">,</span><span class="s">&#39;43.a&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">text</span><span class="p">:</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">temp</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39; is Not convertible to a float&#39;</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="http://pyserial.sourceforge.net">pyserial</a>: Module that encapsulates the access for the serial port</li>
-<li><a href="http://www.amazon.com/Real-World-Instrumentation-Python-Acquisition/dp/0596809565">Real World Instrumentation, Automated Data Acquisition and Control Systems</a>: A book available on Amazon.</li>
-<li><a href="http://www.monkmakes.com/?page_id=63">Programming Raspberry Pi: Getting Started with Python</a>: book (not free) with code (free)</li>
-<li><a href="https://pyvisa.readthedocs.org/en/latest/">PyVISA</a>: The PyVISA package enables you to control all kinds of measurement equipment through various busses (GPIB, RS232, USB) with Python programs</li>
-</ul>
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Image-processing">Image processing<a class="anchor-link" href="#Image-processing">&#182;</a></h3>
+<p>A list of built-in exceptions is available here </p>
+<p><a href="http://docs.python.org/3.1/library/exceptions.html">http://docs.python.org/3.1/library/exceptions.html</a></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="recycling-code-in-python">Recycling code in Python</h2>
+<p>As with Matlab and R, it&#39;s a good idea to write <strong>functions</strong> for bits of code that you use often. </p>
+<p>The syntax for defining a function in Python is: </p>
+<pre><code>def name_of_function(arguments): 
+    &quot;Some code here that works on arguments and produces outputs&quot;
+    ...
+    return outputs
+</code></pre><p>Note that the execution block <strong>must be indented</strong> ... </p>
+<p>Unlike Matlab, you can create a file (a <strong>module</strong>: extension .py required) which contains <strong>several</strong> functions, and can also define variables, and import some other functions from other modules</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[48]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="o">%%</span><span class="k">file</span> <span class="n">some_module</span><span class="o">.</span><span class="n">py</span> 
+
+<span class="n">PI</span> <span class="o">=</span> <span class="mf">3.14159</span> <span class="c"># defining a variable</span>
+
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">arccos</span> <span class="c"># importing a function from another module</span>
+
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span> 
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    This is a function which adds 5 to its argument</span>
+<span class="sd">     </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span>
+
+<span class="k">def</span> <span class="nf">g</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span> 
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    This is a function which sums its 2 arguments</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Writing some_module.py
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[49]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>PIL <a href="http://www.pythonware.com/products/pil/">(Python Image Library)</a>: Image processing capabilities to your Python interpreter.</li>
-<li><a href="http://python-pillow.github.io/">pillow</a>: A more user-friendly <code>fork</code> of PIL</li>
-<li><a href="http://scikit-image.org">scikit-image</a>: more Image processing, built on top of Numpy / Scipy.</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Symbolic-maths">Symbolic maths<a class="anchor-link" href="#Symbolic-maths">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">some_module</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[50]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>The <a href="www.sympy.org">SymPy</a> library is a Python library for symbolic mathematics. It supports polynomials, calculus, solving equations, etc</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Spatial-statistics">Spatial statistics<a class="anchor-link" href="#Spatial-statistics">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="o">%</span><span class="k">whos</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Variable      Type                   Data/Info
+----------------------------------------------
+X             str                    something another thing 1 2 3
+cond          list                   n=5
+division      __future__._Feature    _Feature((2, 2, 0, &apos;alpha&lt;...&gt; 0, 0, &apos;alpha&apos;, 0), 8192)
+int_list      list                   n=7
+int_tup       tuple                  n=6
+item          int                    3
+mixed_list    list                   n=5
+my_dict       dict                   n=3
+sentence      str                    blabla
+some_module   module                 &lt;module &apos;some_module&apos; from &apos;some_module.py&apos;&gt;
+str_list      list                   n=3
+sys           module                 &lt;module &apos;sys&apos; (built-in)&gt;
+this          module                 &lt;module &apos;this&apos; from &apos;/Use&lt;...&gt;/lib/python2.7/this.pyc&apos;&gt;
+tup           tuple                  n=3
+x             int                    9
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[51]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="http://pysal.readthedocs.org/en/v1.6/">PySAL</a>: PySAL is a cross-platform library of spatial analysis functions written in Python. It is intended to support the development of high level applications for spatial analysis.</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Biology,-ecology">Biology, ecology<a class="anchor-link" href="#Biology,-ecology">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">dir</span><span class="p">(</span><span class="n">some_module</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[51]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+[&apos;PI&apos;,
+ &apos;__builtins__&apos;,
+ &apos;__doc__&apos;,
+ &apos;__file__&apos;,
+ &apos;__name__&apos;,
+ &apos;__package__&apos;,
+ &apos;arccos&apos;,
+ &apos;f&apos;,
+ &apos;g&apos;]
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[52]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="http://biopython.org/wiki/Main_Page">Biopython</a>: Biopython is a set of freely available tools for biological computation written in Python by an international team of developers. </li>
-<li><a href="https://pypi.python.org/pypi/GeoEco">GeoEco</a>: Open source geoprocessing toolbox designed for coastal and marine researchers and GIS analysts who work with spatially-explicit ecological and oceanographic data. For Windows (&gt; XP) only.</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Computational-Fluid-Dynamics-and-PDE-solvers">Computational Fluid Dynamics and PDE solvers<a class="anchor-link" href="#Computational-Fluid-Dynamics-and-PDE-solvers">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">help</span><span class="p">(</span><span class="n">some_module</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Help on module some_module:
+
+NAME
+    some_module
+
+FILE
+    /Users/nicolasf/Documents/talks/UoA_Agust2014/notebooks/UoA_Workshop_14082014/some_module.py
+
+FUNCTIONS
+    f(x)
+        This is a function which adds 5 to its argument
+    
+    g(x, y)
+        This is a function which sums its 2 arguments
+
+DATA
+    PI = 3.14159
+    arccos = &lt;ufunc &apos;arccos&apos;&gt;
+
+
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[53]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/">CFD Python: 12 steps to Navier-Stokes</a></li>
-<li><a href="https://github.com/barbagroup/CFDPython">github repository for the above</a></li>
-<li><a href="http://openfoamwiki.net/index.php/Contrib_PyFoam">Python bindings to OpenFOAM</a></li>
-<li><a href="http://matforge.org/fipy/">FiPy: A Finite Volume PDE Solver Using Python</a></li>
-<li><a href="">&quot;Practical Numerical Methods with Python&quot; MOOC</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Python-on-the-GPU">Python on the GPU<a class="anchor-link" href="#Python-on-the-GPU">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">some_module</span><span class="o">.</span><span class="n">PI</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[53]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+3.14159
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[54]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="http://mathema.tician.de/software/pycuda/">PyCUDA</a>: PyCUDA lets you access Nvidia‘s CUDA parallel computation API from Python</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Parallel-computing-with-Python">Parallel computing with Python<a class="anchor-link" href="#Parallel-computing-with-Python">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">some_module</span><span class="o">.</span><span class="n">arccos</span><span class="err">?</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="http://ipython.org/ipython-doc/2/parallel/parallel_intro.html">IPython parallel introduction</a></li>
-<li><a href="https://www.youtube.com/watch?v=y4hgalfhc1Y&amp;index=49&amp;list=PLYx7XA2nY5GfuhCvStxgbynFNrxr3VFog">Interactive Parallel computing with IPython</a>: tutorials by Min. Raglan-Kelley at Scipy2014 (3 parts in the youtube list)</li>
-<li><a href="https://www.youtube.com/watch?v=eyUeYnT-18s&amp;index=32&amp;list=PLs4CJRBY5F1Jm7H1dlesRvEgr-28QGXpR">IPython parallel for distributed computing</a>: A talk at PyCON Australia by Nathan Faggian</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Signal-processing-in-Python">Signal processing in Python<a class="anchor-link" href="#Signal-processing-in-Python">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">some_module</span><span class="o">.</span><span class="n">f</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="http://docs.scipy.org/doc/scipy/reference/tutorial/signal.html">scipy.signal</a></li>
-<li><a href="http://python-for-signal-processing.blogspot.co.nz/">Python for signal processing blog</a></li>
-<li><a href="https://github.com/unpingco/Python-for-Signal-Processing">Python for signal processing github repository</a></li>
-<li><a href="http://www.springer.com/engineering/signals/book/978-3-319-01341-1">Python for signal processing book</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Python-for-Matlab-and-R-users">Python for Matlab and R users<a class="anchor-link" href="#Python-for-Matlab-and-R-users">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">help</span><span class="p">(</span><span class="n">some_module</span><span class="o">.</span><span class="n">f</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><p><a href="http://sebastianraschka.com/Articles/2014_matlab_vs_numpy.html">Moving from MATLAB matrices to NumPy arrays - A Matrix Cheatsheet</a></p>
-</li>
-<li><p><a href="http://wiki.scipy.org/NumPy_for_Matlab_Users">NumPy for Matlab Users</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Some-URLs-and-blogs">Some URLs and blogs<a class="anchor-link" href="#Some-URLs-and-blogs">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">some_module</span> <span class="kn">import</span> <span class="n">f</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><p><a href="http://scipy-lectures.github.io">Python Scientific Lectures Notes</a>: Tutorial material on the scientific Python ecosystem, a quick introduction to central tools and techniques.</p>
-</li>
-<li><p><a href="http://www1.gly.bris.ac.uk/~walker/PythonEarthSci/">Python for earth scientists</a>: A two afternoons course by Andrew Walker (University of Bristol) on Python in the earth sciences. </p>
-</li>
-<li><p><a href="http://oceanpython.org/">oceanpython</a>: Python for oceanography </p>
-</li>
-<li><p><a href="http://pyaos.johnny-lin.com/">PyAOS</a>: Python for the Atmospheric and Oceanic Sciences </p>
-</li>
-<li><p><a href="http://ocefpaf.github.io/">python4oceanographers</a>: Learn python with examples applied to marine sciences.</p>
-</li>
-<li><p><a href="http://jakevdp.github.io">Pythonic perambulations</a>: A blog by Jake VanderPlas</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Github-repositories:-notebooks-and-accompanying-material">Github repositories: notebooks and accompanying material<a class="anchor-link" href="#Github-repositories:-notebooks-and-accompanying-material">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">f</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><p><a href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks">A gallery of interesting IPython Notebooks</a>
-&quot;...a curated collection of IPython notebooks that are notable for some reason.&quot;</p>
-</li>
-<li><p><a href="https://github.com/jakevdp/sklearn_scipy2013">Scikit-learn tutorial</a>: Files and other info associated with the Scipy 2013 scikit-learn tutorial developped by Gaël Varoquaux, Olivier Grisel and Jake VanderPlas.</p>
-</li>
-<li><p><a href="https://github.com/fonnesbeck/statistical-analysis-python-tutorial">Statistical Analysis tutorial</a> from Chris. Fonnesbeck. </p>
-</li>
-<li><p><a href="http://www.astroml.org">AstroML: Machine Learning and Data Mining for Astronomy</a>: A library and tutorial by Jake VanderPlas and co-authors, accompanying the book <a href="http://www.amazon.com/Statistics-Mining-Machine-Learning-Astronomy/dp/0691151687/">Statistics, Data Mining, and Machine Learning in Astronomy</a></p>
-</li>
-<li><p><a href="https://github.com/jrjohansson/scientific-python-lectures">Scientific Python lectures from Robert Johansson</a></p>
-</li>
-<li><p><a href="http://blog.yhathq.com/posts/data-science-in-python-tutorial.html">Data Science in Python</a>: A series of annotated notebooks on data science (i.e. geared towards machine learning) in python</p>
-</li>
-<li><p><a href="http://earthpy.org/">http://earthpy.org/</a>: EarthPy is a collection of IPython notebooks with examples of Earth Science related Python code</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Some-books">Some books<a class="anchor-link" href="#Some-books">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">some_module</span> <span class="kn">as</span> <span class="nn">sm</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><p><a href="http://shop.oreilly.com/product/0636920023784.do">Python for Data Analysis</a>: From Wes McKinney (Developer of <a href="www.pandas.pydata.org">Pandas</a>)</p>
-</li>
-<li><p><a href="http://www.greenteapress.com/thinkstats/">Think stats</a>: Probability and statistics for programmers, from Allen Downey, pdf available for free. </p>
-</li>
-<li><p><a href="http://www.greenteapress.com/compmod/">Think complexity</a>: Complexity science (graphs, cellular automata, agent-based models), from Allen Downey, pdf available for free.</p>
-</li>
-<li><p><a href="http://www.greenteapress.com/pythonhydro/pythonhydro.html">Python in hydrology</a>: A book freely available in pdf, from Sat Kumar Tomer.</p>
-</li>
-<li><p><a href="http://shop.oreilly.com/product/9780596529321.do">Programming collective intelligence</a>: By Toby Segaran, Good intro on (general) Machine Learning algorithms. <em>Can borrow from me</em>. </p>
-</li>
-<li><p><a href="http://www.manning.com/pharrington/">Machine Learning in action</a>: By Peter Harrington.</p>
-</li>
-<li><p><a href="http://www.kevinsheppard.com/images/0/09/Python_introduction.pdf">Introduction to Python for Econometrics, Statistics and Numerical Analysis: Second Edition</a>: By Kevin Sheppard, Oxford Uni.</p>
-</li>
-<li><p><a href="http://www.johnny-lin.com/pyintro/">A Hands-On Introduction to Using Python in the Atmospheric and Oceanic Sciences</a>: By <a href="http://www.johnny-lin.com">Johnny Lin</a>, Professor of physics and head of the Climate Research Group at North Park University.</p>
-</li>
-<li><p><a href="http://geosci.uchicago.edu/~rtp1/PrinciplesPlanetaryClimate/index.html">principles of planetary climate</a>: by Ray Pierrehumbert. Excellent book on the physics of planetary climates, with freely downloadable python code to follow the examples given in the book. </p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Some-interesting-libraries,-built-on-top-of-the-main-Scientific-stack">Some interesting libraries, built on top of the main Scientific stack<a class="anchor-link" href="#Some-interesting-libraries,-built-on-top-of-the-main-Scientific-stack">&#182;</a></h3>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">sm</span><span class="o">.</span><span class="n">f</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><p><a href="http://pymc-devs.github.io/pymc/">PYMC</a>: By Chris Fonnesbeck, Bayesian statistical models and fitting algorithms, including Markov chain Monte Carlo. </p>
-</li>
-<li><p><a href="http://www.stanford.edu/~mwaskom/software/seaborn/">Seaborn</a>: Statistical data visualization, by Michael Waskom. Its <a href="http://www.stanford.edu/~mwaskom/software/seaborn/linear_models.html">graphical representation of linear models</a> is particularly interesting. </p>
-</li>
-<li><p><a href="https://github.com/yhat/ggplot/">ggplot</a>: For <a href="http://cran.r-project.org">R</a> users, a &#39;port&#39; of the <a href="http://ggplot2.org">ggplot2</a> package to Python, see <a href="http://blog.yhathq.com/posts/ggplot-0.4-released.html">here</a> for what&#39;s new in the latest release. </p>
-</li>
-<li><p><a href="http://olgabot.github.io/prettyplotlib/">prettyplotlib</a>: By Olga Botvinnik &quot;... painlessly create beautiful matplotlib plots&quot;.</p>
-</li>
-<li><p><a href="https://pypi.python.org/pypi/coards">coards</a>: A COARDS compliant time parser. See also <a href="http://netcdf4-python.googlecode.com/svn/trunk/docs/netcdftime.netcdftime-module.html">netcdftime</a> which is part of the <a href="https://code.google.com/p/netcdf4-python/">NetCDF4 module</a></p>
-</li>
-<li><p><a href="http://www.imr.no/~bjorn/python/seawater/index.html">seawater</a>: Similar to the MATLAB toolboxes SEAWATER from CSIRO and parts of OCEANS from Woods Hole Institute.</p>
-</li>
-<li><p><a href="https://pypi.python.org/pypi/fluid">fluid</a>: Procedures to study fluids on Python, focused for oceanography, meteorology and related sciences.</p>
-</li>
-<li><p><a href="https://github.com/regeirk/kPyWavelet">kyPyWavelet</a>: Continuous wavelet transform module for Python <em>ala</em> Torrence and Compo. Some manual edits were necessary to make it work for me ... </p>
-</li>
-<li><p><a href="https://code.google.com/p/pyresample/">pyresample</a>: Resampling (reprojection) of geospatial image data in Python</p>
-</li>
-<li><p><a href="http://rpy.sourceforge.net/rpy2.html">Rpy2</a>: calling R from Python</p>
-</li>
-</ul>
+<p>The Zen of python says: </p>
+<p><code>Namespaces are one honking great idea -- let&#39;s do more of those!</code></p>
+<p>so <strong>don&#39;t</strong> do: </p>
+<pre><code>from some_module import *
+</code></pre><p>As to avoid names conflicts ...</p>
 </div>
 </div>
 </div>
@@ -2350,75 +5410,153 @@ h1.title {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Some-articles-on-open-and-reproducible-research">Some articles on open and reproducible research<a class="anchor-link" href="#Some-articles-on-open-and-reproducible-research">&#182;</a></h3>
+<h4 id="a-bit-more-on-functions-">a bit more on functions:</h4>
+<p>Functions can have <strong>positional</strong> as well as <strong>keyword</strong> arguments (with defaults, can be <code>None</code> if that&#39;s allowed / tested)</p>
+<p>positional arguments must always come before keyword arguments</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="k">def</span> <span class="nf">some_function</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">d</span><span class="o">=</span><span class="mf">1e3</span><span class="p">):</span> 
+    <span class="n">res</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="o">*</span> <span class="n">c</span> <span class="o">*</span> <span class="n">d</span>
+    <span class="k">return</span> <span class="n">res</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><p><a href="http://dx.doi.org/10.1126/science.1213847">Reproducible Research in Computational Science</a>, Roger D. Peng, Science 334, 1226 (2011).</p>
-</li>
-<li><p><a href="http://dx.doi.org/10.1126/science.1218263">Shining Light into Black Boxes</a>, A. Morin et al., Science 336, 159-160 (2012).</p>
-</li>
-<li><p><a href="http://dx.doi.org/doi:10.1038/nature10836">The case for open computer programs</a>, D.C. Ince, Nature 482, 485 (2012).</p>
-</li>
-<li><p><a href="http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001745">Best practices for scientific computing</a>: Paper in PLOS Biology exposing some of the tools and methods to build better Scientific software.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Acknowledgments">Acknowledgments<a class="anchor-link" href="#Acknowledgments">&#182;</a></h2>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">some_function</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In building this material, I have liberally &#39;<em>borrowed</em>&#39; from lecture notes, online notebooks, video recording of talks, code examples, articles, etc, that are freely available online, I would like to acknowledge in particular (list not exhaustive and in no particular order): </p>
-<ul>
-<li><a href="http://blog.fperez.org">Fernando Perez</a>: Lead developper of <a href="www.ipython.org">IPython</a>, great advocate of <a href="http://en.wikipedia.org/wiki/Open_science">open science</a> and reproducible research</li>
-<li>Brian Granger: Lead developper of the <a href="http://ipython.org/notebook.html">IPython notebook</a></li>
-<li><a href="http://blog.wesmckinney.com">Wes McKinney</a>: Lead developper of Pandas, author of <a href="http://shop.oreilly.com/product/0636920023784.do">Python for Data Analysis</a></li>
-<li><a href="http://biostat.mc.vanderbilt.edu/wiki/Main/ChrisFonnesbeck">Christopher Fonnesbeck</a>: Developper of <a href="http://pymc-devs.github.io/pymc/">PYMC</a> (Bayesian statistical models and fitting algorithms, including Markov chain Monte Carlo)</li>
-<li><a href="http://www.astro.washington.edu/users/vanderplas/">Jake VanderPlas</a>: Astronomer, contributor to <a href="http://scikit-learn.org">scikit-learn</a></li>
-<li><a href="http://gael-varoquaux.info">Gaël Varoquaux</a>: One of the main contributors to <a href="http://scikit-learn.org">scikit-learn</a></li>
-<li><a href="http://ogrisel.com">Olivier Grisel</a>: Also main contributor to <a href="http://scikit-learn.org">scikit-learn</a></li>
-<li><a href="http://technicaldiscovery.blogspot.co.nz">Travis Oliphant</a>: One of the lead developpers of Numpy / Scipy, and founder of <a href="http://continuum.io">Continuum Analytics</a>.</li>
-<li>J.R. Johansson <a href="http://dml.riken.jp/~rob/">http://dml.riken.jp/~rob/</a></li>
-<li><a href="http://twiecki.github.io/">Thomas Wiecki</a>: developper of <a href="https://github.com/pymc-devs/pymc">PYMC3</a>, a fork of PYMC. </li>
-<li><a href="http://jseabold.net/">Skipper Seabold</a>: The main developper of <a href="http://statsmodels.sourceforge.net/">statsmodels</a></li>
-<li><a href="http://www.kevinsheppard.com/wiki/Main_Page">Kevin Sheppard</a> from University of Oxford: author or the book <a href="http://www.kevinsheppard.com/images/0/09/Python_introduction.pdf">Introduction to Python for Econometrics, Statistics and Numerical Analysis: Second Edition</a>. </li>
-</ul>
-<p>And finally <a href="http://blog.fperez.org/2013/07/in-memoriam-john-d-hunter-iii-1968-2012.html">John Hunter</a>, He was the founder and lead developper of <a href="http://matplotlib.org">Matplotlib</a>, a pivotal library to make Python a viable free and open-source alternative to commercial scientific software, and very sadly passed away in 2012.</p>
-<p>I encourage you - if you carry on using Python for science - to look up these people on google, have a look at their github repositories and the projects they contribute to, and follow them on twitter, some of them (<em>e.g.</em> Jake VanderPlas) have also very informative blogs. You can also donate to the <a href="http://numfocus.org/johnhunter.html">John Hunter memorial fund</a> as a way to give back to an important contributor to the Python scientific community.</p>
-<hr>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">some_function</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">d</span><span class="o">=</span><span class="mf">0.01</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<center>
-<img src="images/python.png" alt="">
-</center>
+<p>you can return more than one output, by default will be a tuple</p>
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="k">def</span> <span class="nf">some_function</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span> 
+    <span class="k">return</span> <span class="n">a</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">b</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">b</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span> <span class="o">=</span> <span class="n">some_function</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">c</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><hr size=5>
+styling</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
