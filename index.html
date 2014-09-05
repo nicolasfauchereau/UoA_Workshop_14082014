@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>UoA workshop &quot;open source Software for engineering and science research&quot; by nicolasfauchereau</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>UoA workshop &quot;open source Software for engineering and science research&quot;</h1>
+        <h2>Material for the workshop on &quot;Using open-source software for Engineering and Science research&quot;, 14 August 2014, University of Auckland. Please scroll down to see README.</h2>
+        <a href="https://github.com/nicolasfauchereau/UoA_Workshop_14082014" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="using-open-source-software-for-engineering-and-science-research" class="anchor" href="#using-open-source-software-for-engineering-and-science-research"><span class="octicon octicon-link"></span></a>Using open-source software for Engineering and Science research</h1>
+
+<h2>
+<a name="python-and-the-scientific-python-ecosystem" class="anchor" href="#python-and-the-scientific-python-ecosystem"><span class="octicon octicon-link"></span></a>Python and the Scientific Python ecosystem</h2>
+
+<p><strong>14 August 2014</strong></p>
+
+<blockquote>
+<p>Room 423-340<br>
+University of Auckland<br>
+Conference building<br>
+between 20 and 24 Symonds street (<em>between the Engineering building and the security building</em>)<br>
+Auckland<br>
+New Zealand  </p>
+</blockquote>
+
+<p><a href="https://wiki.auckland.ac.nz/x/FQEuB">https://wiki.auckland.ac.nz/x/FQEuB</a></p>
+
+<p>Email: <a href="mailto:Nicolas.Fauchereau@gmail.com">Nicolas.Fauchereau@gmail.com</a></p>
+
+<p>All the material (notebooks) are indexed at:</p>
+
+<p><a href="https://github.com/nicolasfauchereau/UoA_Workshop_14082014">https://github.com/nicolasfauchereau/UoA_Workshop_14082014</a></p>
+
+<p>If you have git installed, the easier is to clone my repository (from the command line):</p>
+
+<pre><code>git clone https://github.com/nicolasfauchereau/UoA_Workshop_14082014
+</code></pre>
+
+<p>If you are not a git user, simply download the tarball from <a href="https://github.com/nicolasfauchereau/UoA_Workshop_14082014/archive/master.zip">here</a></p>
+
+<hr><p>Follow the links to the for HTML-rendered (<strong>static</strong>) versions of the notebooks:</p>
+
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/nicolasfauchereau/UoA_Workshop_14082014/blob/master/Introduction.ipynb">Introduction</a></li>
+<li><a href="http://nbviewer.ipython.org/github/nicolasfauchereau/UoA_Workshop_14082014/blob/master/Python_intro.ipynb">Python Introduction</a></li>
+<li><a href="http://nbviewer.ipython.org/github/nicolasfauchereau/UoA_Workshop_14082014/blob/master/Numpy.ipynb">Numpy</a></li>
+<li><a href="http://nbviewer.ipython.org/github/nicolasfauchereau/UoA_Workshop_14082014/blob/master/Scipy.ipynb">Scipy</a></li>
+<li><a href="http://nbviewer.ipython.org/github/nicolasfauchereau/UoA_Workshop_14082014/blob/master/Matplotlib.ipynb">Matplotlib</a></li>
+<li><a href="http://nbviewer.ipython.org/github/nicolasfauchereau/UoA_Workshop_14082014/blob/master/Pandas.ipynb">Pandas</a></li>
+</ul><hr><h2>
+<a name="installation-instructions" class="anchor" href="#installation-instructions"><span class="octicon octicon-link"></span></a>Installation instructions</h2>
+
+<p>I recommend using the <a href="https://store.continuum.io/cshop/anaconda/">Anaconda scientific python distribution</a>, which is a completely free enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing. It includes the python interpreter itself, the python standard library as well as a set of packages exposing data structures and methods for data manipulation and scientific computing and visualization. In particular it provides Numpy, Scipy, Pandas, Matplotlib (...). The full list of packages is available at:</p>
+
+<p><a href="http://docs.continuum.io/anaconda/pkgs.html">http://docs.continuum.io/anaconda/pkgs.html</a></p>
+
+<p>The Anaconda python distribution must be downloaded from:</p>
+
+<p><a href="http://continuum.io/downloads">http://continuum.io/downloads</a></p>
+
+<p>Once copied over, make sure the anaconda installer is executable by going in the right directory (with cd) and entering (example for <code>version 2.0.1</code> of Anaconda on a 64bit Linux machine):</p>
+
+<pre><code>$ chmod +x Anaconda-2.0.1-Linux-x86_64.sh
+</code></pre>
+
+<p>then to launch the installer:</p>
+
+<pre><code>$ ./Anaconda.2.0.1-Linux-x86_64.sh
+</code></pre>
+
+<p>The installer will ask you a few questions, the most important is related to the installation directory, I recommend installing in the <code>$HOME</code> directory (user installation)</p>
+
+<p>Once Anaconda is installed, you need to update conda (the python ‘package manager’ that comes with anaconda and allows the painless installation and update of third party modules) by entering</p>
+
+<pre><code>$ /opt/anaconda/bin/conda update conda
+</code></pre>
+
+<p>Then a good thing is to update the anaconda packages already installed</p>
+
+<pre><code>$ /opt/anaconda/bin/conda update anaconda
+</code></pre>
+
+<p>You also need to install <a href="https://github.com/pypa/pip">pip</a> to install packages from the <a href="http://pypi.python.org/pypi">Python Package Index</a>.</p>
+
+<pre><code>$ /opt/anaconda/bin/conda install pip
+</code></pre>
+
+<h3>
+<a name="running-the-material-ipython-notebooks" class="anchor" href="#running-the-material-ipython-notebooks"><span class="octicon octicon-link"></span></a>Running the material (IPython notebooks)</h3>
+
+<p>Once the <a href="https://store.continuum.io/cshop/anaconda/">Anaconda scientific python distribution</a> has been installed:</p>
+
+<ol>
+<li><p>navigate (in the terminal) to the directory where you have unpacked or cloned my repository (<code>*.ipynb</code> files should be present)  </p></li>
+<li><p>run:</p></li>
+</ol><pre><code>ipython notebook
+</code></pre>
+
+<ol>
+<li>Open <code>test.ipynb</code> and in the menu bar select <code>Cell / Run all</code> to see if everything installed fine</li>
+</ol><p>To visualize the notebooks from my github repository please head to the <a href="README.md">README</a> which contains links to static, HTML rendered versions of the notebooks, that you can follow online (but not run !).</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/nicolasfauchereau/UoA_Workshop_14082014/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/nicolasfauchereau/UoA_Workshop_14082014/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/nicolasfauchereau/UoA_Workshop_14082014"></a> is maintained by <a href="https://github.com/nicolasfauchereau">nicolasfauchereau</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
